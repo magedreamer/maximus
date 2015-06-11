@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+     <!-- <menu>
+        <lana module="swatch">
+            <title>swatch</title>
+            <sort_order>71</sort_order>
+            <children>
+                <swatch module="swatch">
+                    <title>swatch</title>
+                    <sort_order>1</sort_order>
+                    <action>swatch/adminhtml_swatch</action>
+                </swatch>
+            </children>
+        </lana>
+    </menu>-->
+
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <swatch>
+                                        <title>swatch Settings</title>
+                                    </swatch>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

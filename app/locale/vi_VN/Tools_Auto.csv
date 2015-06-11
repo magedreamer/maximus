@@ -1,0 +1,4 @@
+"Add file contains data","Thêm file cần update"
+"Phai la file excel, lam 3 cot: sku, qty, location","Phải là file excel, chia làm 3 cột : Sku, số lượng, vị trí kho."
+"Phai la file excel, lam 2 cot: cot sku cu va cot sku moi","Phải là file excel, chia làm 2 cột: cột sku cũ và cột sku mới."
+"Phai la file excel, lam 4 cot: sku, Special price, Special from date, Special to date, category(cate1-cate2)","Phải là file excel, chia làm 5 cột: cột sku, % giá giảm, giảm từ ngày, đến ngày, trong danh mục(danh mục 1- danh mục 2)"
